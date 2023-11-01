@@ -1,5 +1,11 @@
 # YouTube Comments ETL Project
 
+## Architecture
+
+Here is an illustration of our system's architecture:
+
+![System Architecture](./Archi.jpg)
+
 ## Project Overview
 This project involves extracting YouTube video comments, including the username and timestamp, using the YouTube Data API. The extracted data is then transformed and cleaned using Python, and finally, it is loaded into an AWS S3 bucket for future analysis.
 
